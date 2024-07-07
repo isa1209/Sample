@@ -26,8 +26,8 @@ CPUとGPUの処理を同期させるために、フェンスを導入します�
 
 ### バリア
 リソースの状態遷移を記述します。  
-`	BarrierDesc.Transition.StateBefore = D3D12_RESOURCE_STATE_RENDER_TARGET;
-	BarrierDesc.Transition.StateAfter = D3D12_RESOURCE_STATE_PRESENT;`  
+`BarrierDesc.Transition.StateBefore = D3D12_RESOURCE_STATE_RENDER_TARGET;
+ BarrierDesc.Transition.StateAfter = D3D12_RESOURCE_STATE_PRESENT;`  
 
  ### ビューポート
  レンダリング結果の表示形式を指定します。  
