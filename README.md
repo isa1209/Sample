@@ -63,7 +63,31 @@ BarrierDesc.Transition.StateAfter = D3D12_RESOURCE_STATE_PRESENT;
    float2 uv : TEXCOORD; //UV値
  };
  ```
- 
+
+ ### 頂点シェーダー
+ 以下のシェーダーによって、頂点情報をラスタライザーへ送ります。
+ ```
+BasicType BasicVS(float4 pos : POSITION, float2 uv : TEXCOORD)
+{
+    BasicType output;
+    output.svpos = pos;
+    output.uv = uv;
+    
+	return output;
+}
+```
+
+### ピクセルシェーダー
+以下のシェーダーによって、テクスチャをシェーディングしています。
+```
+Texture2D<float4> tex : register(t0);
+SamplerState smp : register(s0);
+
+float4 BasicPS(BasicType input) : SV_TARGET
+{    
+    return float4(tex.Sample(smp, input.uv));
+}
+```
 
 ## 参考文献
 ・DirectX12の魔導書　3Dレンダリングの基礎からMMDモデルを踊らせるまで  
