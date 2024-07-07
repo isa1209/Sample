@@ -1,9 +1,0 @@
-﻿  World.cpp
-C:\Users\m1320\source\repos\Sample\World.cpp(15,12): warning C4305: '=': 'int' から 'unsigned char' へ切り詰めます。
-C:\Users\m1320\source\repos\Sample\World.cpp(15,12): warning C4309: '=': 定数値が切り捨てられました。
-C:\Users\m1320\source\repos\Sample\World.cpp(635,27): warning C4267: '=': 'size_t' から 'UINT' に変換しました。データが失われているかもしれません。
-C:\Users\m1320\source\repos\Sample\World.cpp(636,37): warning C4267: '=': 'size_t' から 'UINT16' に変換しました。データが失われているかもしれません。
-C:\Users\m1320\source\repos\Sample\World.cpp(639,30): warning C4267: '=': 'size_t' から 'UINT16' に変換しました。データが失われているかもしれません。
-C:\Users\m1320\source\repos\Sample\World.cpp(663,8): warning C4267: '引数': 'size_t' から 'UINT' に変換しました。データが失われているかもしれません。
-C:\Users\m1320\source\repos\Sample\World.cpp(662,8): warning C4267: '引数': 'size_t' から 'UINT' に変換しました。データが失われているかもしれません。
-  Sample.vcxproj -> C:\Users\m1320\source\repos\Sample\x64\Debug\Sample.exe
