@@ -93,7 +93,7 @@ float4 BasicPS(BasicType input) : SV_TARGET
 ダウンロードして実行する場合は、/Include を解凍後、Sample/ に配置してください。
 
 ### 実行結果
-![/result/スクリーンショット 2024-07-08 054311.png]
+![](/result/スクリーンショット 2024-07-08 054311.png)
 
 
 ## 参考文献
