@@ -93,7 +93,8 @@ float4 BasicPS(BasicType input) : SV_TARGET
 ダウンロードして実行する場合は、/Include を解凍後、Sample/ に配置してください。
 
 ### 実行結果
-![実行結果（2024/7月時点）](Sample/result/スクリーンショット 2024-07-08 054311.png)
+![スクリーンショット 2024-07-08 054311](https://github.com/isa1209/Sample/assets/174942240/9e9410f2-1f27-4d5c-8f06-dd98ba6d3e72)
+
 
 
 ## 参考文献
