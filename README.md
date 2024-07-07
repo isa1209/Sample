@@ -89,6 +89,12 @@ float4 BasicPS(BasicType input) : SV_TARGET
 }
 ```
 
+### 実行
+ダウンロードして実行する場合は、/Include を解凍後、Sample/ に配置してください。
+
+## 実行結果
+
+
 ## 参考文献
 ・DirectX12の魔導書　3Dレンダリングの基礎からMMDモデルを踊らせるまで  
 https://www.shoeisha.co.jp/book/detail/9784798161938
